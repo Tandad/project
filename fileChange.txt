@@ -1,0 +1,8 @@
+/view
+	examine.jade
+	app.js
+	head.jade
+
+/public/css/compiled（直接复制替换即可）
+	gallery.css
+	personal-info.css

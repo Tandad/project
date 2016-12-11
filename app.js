@@ -22,8 +22,16 @@ app.get('/form-showcase', function (req, res) {
 	})
 })
 
+
+//新添加的东西
 app.get('/examine', function (req, res) {
 	res.render('examine', {
 			title: 'examine'
+	})
+})
+
+app.get('/person-info', function (req, res) {
+	res.render('person-info', {
+			title: 'person-info'
 	})
 })
